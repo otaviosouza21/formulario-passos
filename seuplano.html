@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="/jquery-3.6.2.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Frontend Mentor | Multi-step form</title>
+
+</head>
+
+<body>
+  <main class="principal">
+
+
+    <section class="esquerda">
+      <div>
+        <img class="image" src="assets/images/bg-sidebar-desktop.svg">
+        <div>
+
+          <div class="steps">
+
+            <div class="circle">
+              <a href="index.html"><span class="step-circle">1</span></a>
+              <a href="seuplano.html"><span class="step-circle c1">2</span></a>
+              <a href="addon.html"><span class="step-circle">3</span></a>
+              <a href="./resumo.html"><span class="step-circle">4</span></a>
+            </div>
+
+            <div class="passo">
+              <label>
+                <h6>PASSO 1</h6>
+                <h5>Suas Informações</h5>
+              </label>
+
+              <label>
+                <h6>PASSO 2</h6>
+                <h5>Selecionar Plano</h5>
+              </label>
+
+              <label>
+                <h6>PASSO 3</h6>
+                <h5>Serviços Adicionais</h5>
+              </label>
+
+              <label>
+                <h6>PASSO 4</h6>
+                <h5>Resumo</h5>
+              </label>
+            </div>
+
+          </div>
+
+    </section>
+
+
+    <form class="plano">
+
+      <div class="title-2">
+        <h1>Selecione seu plano </h1>
+        <p>Você tem a opção de pagar mensalmente ou anualmente</p>
+      </div>
+
+      <div class="seletor-planos">
+
+        <section class="plan ativo">
+          <img src="assets/images/icon-arcade.svg">
+          <div>
+            <h4>Arcade</h4>
+            <p class="p-alt-1">R$ 47/mes</p>
+          </div>
+        </section>
+
+        <section class="plan ativo-2">
+          <img src="assets/images/icon-advanced.svg">
+          <div>
+            <h4>Advanced</h4>
+            <p class="p-alt-2">R$ 63/mes</p>
+          </div>
+        </section>
+
+        <section class="plan ativo-3">
+          <img src="assets/images/icon-pro.svg">
+
+          <div>
+            <h4>Pró</h4>
+            <p class="p-alt-3">R$ 79/mes</p>
+          </div>
+        </section>
+
+        <section class="mes-ano">
+          <span>Mensal</span>
+
+          <div class="div-seletor">
+            <div class=" circle-selector-on circle-seletor "></div>
+          </div>
+
+          <span>Anual</span>
+        </section>
+      </div>
+
+      <footer class="proximo-passo">
+        <a href="./index.html">Voltar</a>
+        <a class="button" style="color: white;" href="./addon.html">Proximo Passo</a>
+      </footer>
+    </form>
+  </main>
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>

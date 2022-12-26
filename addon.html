@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="jquery-3.6.2.js"></script>
+
+
+  <title>Frontend Mentor | Multi-step form</title>
+
+</head>
+
+<body>
+  <main class="principal">
+
+
+    <section class="esquerda">
+      <div>
+        <img class="image" src="assets/images/bg-sidebar-desktop.svg">
+        <div>
+
+          <div class="steps">
+
+            <div class="circle">
+              <a href="index.html"><span class="step-circle">1</span></a>
+              <a href="seuplano.html"><span class="step-circle ">2</span></a>
+              <a href="addon.html"><span class="step-circle c1">3</span></a>
+              <a href="resumo.html"><span class="step-circle">4</span></a>
+            </div>
+
+            <div class="passo">
+              <label>
+                <h6>PASSO 1</h6>
+                <h5>Suas Informações</h5>
+              </label>
+
+              <label>
+                <h6>PASSO 2</h6>
+                <h5>Selecionar Plano</h5>
+              </label>
+
+              <label>
+                <h6>PASSO 3</h6>
+                <h5>Serviços Adicionais</h5>
+              </label>
+
+              <label>
+                <h6>PASSO 4</h6>
+                <h5>Resumo</h5>
+              </label>
+            </div>
+
+          </div>
+
+    </section>
+
+
+    <form class="plano">
+
+      <div class="title-2">
+        <h1>Serviços Adicionais</h1>
+        <p>Melhore ainda mais sua experiência</p>
+      </div>
+
+      <div class="seletor-add">
+
+        <section class="add1 addon bk">
+          <input id="serv" type="checkbox">
+          <div class="title-add">
+            <h5>Serviços Onlines</h5>
+            <p>Acesso ao modo Multplayer e Carreira mode</p>
+          </div>
+          <span>+R$5,99/Mes</span>
+        </section>
+
+        <section class="add2 addon bk">
+          <input id="serv2" name="serv2" type="checkbox">
+          <div class="title-add">
+            <h5>Expansão de Armazenamento</h5>
+            <p>1TB Extra no Armazenamento em Nuvem</p>
+          </div>
+          <span>+R$9,99/Mes</span>
+        </section>
+
+        <section class="add3 addon bk">
+          <input id="serv3" name="serv3" type="checkbox">
+          <div class="title-add">
+            <h5>Perfil Customizavel</h5>
+            <p>Personalize o seu perfil conforme seu estilo</p>
+          </div>
+          <span>+R$9,99/Mes</span>
+        </section>
+
+
+        </section>
+      </div>
+
+      <footer class="proximo-passo">
+        <a href="./seuplano.html">Voltar</a>
+        <a class="button" style="color: white;" href="./resumo.html">Proximo Passo</a>
+        </footer>
+    </form>
+  </main>
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
